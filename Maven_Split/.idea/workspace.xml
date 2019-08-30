@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a0ea674-d559-4754-b089-4078ea20a5e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/lib/Dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/lib/Dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/lib/Service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/lib/Service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dao/src/main/resources/c3p0Jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/src/main/resources/c3p0Jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/target/classes/c3p0Jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/target/classes/c3p0Jdbc.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/Dao/src/main/resources/c3p0Jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -528,7 +523,7 @@
       <updated>1562749491739</updated>
       <workItem from="1562749495185" duration="4948000" />
       <workItem from="1562805251828" duration="2594000" />
-      <workItem from="1567156039172" duration="2967000" />
+      <workItem from="1567156039172" duration="3586000" />
     </task>
     <task id="LOCAL-00001" summary="转到服务器">
       <created>1567160408951</created>
@@ -537,14 +532,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567160408951</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="改用户">
+      <created>1567161493055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567161493055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10509000" />
+    <option name="totallyTimeSpent" value="11128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -571,7 +573,7 @@
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3286119" />
       <window_info anchor="right" id="Key Promoter X" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -589,7 +591,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="转到服务器" />
-    <option name="LAST_COMMIT_MESSAGE" value="转到服务器" />
+    <MESSAGE value="改用户" />
+    <option name="LAST_COMMIT_MESSAGE" value="改用户" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Dao/pom.xml">
@@ -741,7 +744,7 @@
     <entry file="file://$PROJECT_DIR$/Dao/src/main/resources/c3p0Jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
