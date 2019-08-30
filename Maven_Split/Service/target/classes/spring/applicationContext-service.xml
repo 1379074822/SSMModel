@@ -12,14 +12,18 @@
                             http://www.springframework.org/schema/aop/spring-aop.xsd
                             http://www.springframework.org/schema/tx
                             http://www.springframework.org/schema/tx/spring-tx.xsd">
+<!--   开启扫描,除了Controller,都交给spring来处理-->
+
     <context:component-scan base-package="com.coffee">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
+<!--    引入dao中的applicationContext文件-->
     <import resource="applicationContext-dao.xml"></import>
-
+<!--配置事务管理器-->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"></property>
     </bean>
+<!--    配置事务增强,事务如何切入-->
     <tx:advice id="advice">
         <tx:attributes>
             <tx:method name="save*" propagation="REQUIRED"/>
@@ -28,8 +32,11 @@
             <tx:method name="find*" read-only="true"/>
         </tx:attributes>
     </tx:advice>
+<!--    aop增强-->
     <aop:config>
+<!--        切入点表达式-->
         <aop:pointcut id="pt1" expression="execution(* com.coffee.service.impl.*.*(..))"/>
+<!--        配置事务增强-->
         <aop:advisor advice-ref="advice" pointcut-ref="pt1" />
     </aop:config>
 </beans>

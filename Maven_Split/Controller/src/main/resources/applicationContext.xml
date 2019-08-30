@@ -12,6 +12,8 @@
                             http://www.springframework.org/schema/aop/spring-aop.xsd
                             http://www.springframework.org/schema/tx
                             http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+<!--    导入dao与service的applicationContext文件-->
     <import resource="classpath:spring/applicationContext-dao.xml"/>
     <import resource="classpath:spring/applicationContext-service.xml"/>
 

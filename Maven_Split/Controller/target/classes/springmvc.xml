@@ -15,14 +15,17 @@
 			    http://www.springframework.org/schema/tx/spring-tx.xsd
 			    http://www.springframework.org/schema/mvc
 			    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+<!--    扫描Controller   交给springMVC来处理-->
     
     <context:component-scan base-package="com.coffee.controller"></context:component-scan>
-
+<!--常用配置，可以使用更高级的功能-->
     <mvc:annotation-driven/>
+    <!--配置页面解析器，方便返回页面-->
     <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"></property>
         <property name="suffix" value=".jsp"></property>
     </bean>
-
+<!--将mvc不能处理的资源交给tomcat来处理，分离出静态资源-->
     <mvc:default-servlet-handler/>
 </beans>

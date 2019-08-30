@@ -13,20 +13,23 @@
                             http://www.springframework.org/schema/tx
                             http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-
+<!--    加载jdbc配置文件，灵活引入datasource所需配置-->
+    <context:property-placeholder location="classpath:c3p0Jdbc.properties"/>
 
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/maven"/>
-        <property name="user" value="root"/>
-        <property name="password" value="password"/>
+        <property name="driverClass" value="${jdbc.driverClass}"/>
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}"/>
+        <property name="user" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
     </bean>
+
+<!--    生成sqlSessionFactory对象-->
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"></property>
         <property name="typeAliasesPackage" value="com.coffee.domain"></property>
     </bean>
-
+<!--配置扫描器,扫描mapper配置文件,把mybatis接口实现加入ioc容器中-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.coffee.dao"></property>
     </bean>
