@@ -7,17 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a0ea674-d559-4754-b089-4078ea20a5e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/lib/Dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/lib/Dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/lib/Service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/lib/Service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/target/Maven_Super/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dao/src/main/resources/c3p0Jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/src/main/resources/c3p0Jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/target/classes/META-INF/Dao.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/target/classes/com/coffee/dao/ItemDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/target/classes/com/coffee/dao/ItemDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/target/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven_Split.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Service/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dao/target/classes/c3p0Jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/target/classes/c3p0Jdbc.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dao/src/main/resources/spring/applicationContext-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="242">
               <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
               <folding>
                 <element signature="e#1224#1245#0" expanded="true" />
@@ -69,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dao/src/main/resources/c3p0Jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="44">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -532,18 +528,26 @@
       <updated>1562749491739</updated>
       <workItem from="1562749495185" duration="4948000" />
       <workItem from="1562805251828" duration="2594000" />
-      <workItem from="1567156039172" duration="1868000" />
+      <workItem from="1567156039172" duration="2967000" />
     </task>
+    <task id="LOCAL-00001" summary="转到服务器">
+      <created>1567160408951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567160408951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9410000" />
+    <option name="totallyTimeSpent" value="10509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -555,7 +559,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.1309329" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3711048" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3711048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -582,6 +586,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="转到服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="转到服务器" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Dao/pom.xml">
@@ -721,7 +729,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dao/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="242">
           <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
             <element signature="e#1224#1245#0" expanded="true" />
@@ -732,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dao/src/main/resources/c3p0Jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
